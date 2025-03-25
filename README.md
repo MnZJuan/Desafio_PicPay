@@ -1,6 +1,6 @@
 # Desafio_PicPay
 
-O intuito de fazer estes desafios e compartilha-los aqui, é, para além de meus estudos uma forma de criar um portfólio sem apelar para projetos repetitivos e de pouca importância real.
+O objetivo deste projeto é simular um sistema de transferências financeiras entre usuários e lojistas, com validações de regras de negócio e integração com serviços externos para autorização e notificações.
 
 ## Plano de Desenvolvimento
 
@@ -13,8 +13,11 @@ O intuito de fazer estes desafios e compartilha-los aqui, é, para além de meus
 
 2. **Funcionalidades Principais**:
    - Cadastro de usuários e lojistas com validação de CPF/CNPJ e e-mail únicos.
-   - Transferências entre usuários e lojistas com validação de saldo.
-   - Consulta a serviços externos para autorização e notificações.
+   - Transferências entre usuários e lojistas com:
+     - Validação de saldo disponível.
+     - Atualização atômica do saldo do pagador e recebedor.
+     - Integração com serviços externos para autorização.
+   - Envio de notificações ao recebedor após a transferência.
 
 3. **Estrutura do Projeto**:
    - `src/`: Contém o código-fonte da aplicação.
@@ -26,6 +29,14 @@ O intuito de fazer estes desafios e compartilha-los aqui, é, para além de meus
    - Instale as dependências com `npm install`.
    - Rode as migrações do banco de dados com `npx sequelize-cli db:migrate`.
    - Inicie o servidor com `npm start`.
+
+## Imagens dos testes - Prova de funcionalidades e regras
+
+Aqui estão as imagens que demonstram os testes realizados para validar as funcionalidades e regras do sistema:
+
+![Teste 1](./Imagens/teste1.png)
+![Teste 2](./Imagens/teste2.png)
+![Teste 3](./Imagens/teste3.png)
 
 ## Referência
 
