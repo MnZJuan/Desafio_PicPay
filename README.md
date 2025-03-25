@@ -34,9 +34,11 @@ O objetivo deste projeto é simular um sistema de transferências financeiras en
 
 Aqui estão as imagens que demonstram os testes realizados para validar as funcionalidades e regras do sistema:
 
-![Teste 1](./Imagens/teste1.png)
-![Teste 2](./Imagens/teste2.png)
-![Teste 3](./Imagens/teste3.png)
+![Teste 1](./Imagens/Print_Teste_Erro_API.png)
+![Teste 2](./Imagens/Print_Teste_Regra_Lojista.png)
+![Teste 3](./Imagens/Print_Teste_Transferencia_Lojista.png)
+![Teste 3](./Imagens/Print_Teste_Transferencia_Sucesso.png)
+
 
 ## Referência
 
